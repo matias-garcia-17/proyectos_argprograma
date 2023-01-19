@@ -1,0 +1,136 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    margin-bottom: 8px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+h4, p {
+    margin: 1px;
+}
+
+h1{
+    margin-bottom: 3px;
+}
+
+
+ul{ 
+    margin-top: 5px;
+}
+
+header{
+    background-color: #72ACB9;
+    display: flex;
+    border-bottom: #457A85 double 2px;
+}
+.nombre{
+    padding-left: 20px;
+}
+.foto {
+   width: 150x;
+   height: 150px;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+#foto_carnet{
+    border-radius: 30%;
+}
+
+.contenedor {
+    display: flex;
+}
+.datos {
+    background-color: #B4DFEA;
+    border-right: 2px solid #457A85;
+    border-top: 2px solid #457A85;
+    margin: 0;
+    width: 1000px;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+#lista-1 ul{
+    list-style-type: none;
+}
+.datos img {
+    width: 15px ;
+    height: 15px;
+}
+
+.experiencia {
+    background-color: #E5F2F5;
+    border-left: 2px solid #457A85;
+    border-top: 2px solid #457A85;
+    margin: 0;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+
+  
+.boton_personalizado{
+    font-size: 18px;
+    background-color: #B4DFEA;
+    border: 0.5px solid #457A85;
+  }
+
+  .boton_personalizado :hover{
+    font-size: 18px;
+    background-color: #B4DFEA;
+    background: linear-gradient(to bottom,transparent,#457A85);
+    border: 0.5px solid #457A85;
+  }
+
+  #boton{
+    display: none;
+    border: red solid 2px;
+  }
+
+
+@media only screen and (max-width: 950px) {
+    .contenedor{
+        display: block;
+    }
+    
+    header {
+        border-left: 2px solid #457A85;
+        border-top: 2px solid #457A85;
+        border-bottom: 0px;
+    }
+ 
+    .datos {
+        display: inline-block;
+        width: 100%; ;
+    }
+
+    .experiencia {
+        display: inline-block;
+        width: 100%; ;
+        padding-left: 10px;
+        border-bottom: 2px solid #457A85;
+    }
+  }
+
+
+  #texto_aptitudes{
+    display: none;
+  }
+  #texto_idiomas{
+    display: none;
+  }
+  #texto_contacto{
+    display: none;
+  }
+  #texto_afiliaciones{
+    display: none;
+  }
+
